@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sdziekan/BFH/issues"
   },
-  "homepage": "https://github.com/sdziekan/BFH#readme"
+  "homepage": "https://github.com/sdziekan/BFH#readme",
+  "devDependencies": {
+    "vue-cli-plugin-vuetify": "^0.1.6"
+  }
 }
