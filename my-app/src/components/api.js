@@ -9,7 +9,7 @@ function getBook(bookID) {
     return myApi.get("/books/" + bookID).then(response => {
         return response.data;
     });
-};
+}
 
 function getBooks() {
     return myApi.get("/books/").then(response => {
