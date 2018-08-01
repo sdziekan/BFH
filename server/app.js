@@ -38,7 +38,7 @@ app.use('/api/books/', books);
 
 const history = require('express-history-api-fallback')
 
-const clientRoot = path.join(__dirname, '../client/dist');
+const clientRoot = path.join(__dirname, '../my-app/dist');
 app.use('/', express.static(clientRoot))
 app.use(history('index.html', { root: clientRoot }))
 
